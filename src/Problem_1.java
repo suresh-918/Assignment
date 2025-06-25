@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-class Calculator {
+class Problem_1 {
     double a, b;
     String operation;
 
-    Calculator(double a, double b, String operation) {
+    Problem_1(double a, double b, String operation) {
         this.a = a;
         this.b = b;
         this.operation = operation;
@@ -55,7 +55,7 @@ class Calculator {
         System.out.print("Enter operation (add, subtract, multiply, divide): ");
         String operation = sc.nextLine();
 
-        Calculator calc = new Calculator(a, b, operation);
+        Problem_1 calc = new Problem_1(a, b, operation);
         calc.calculate();
 
         sc.close();
